@@ -105,6 +105,12 @@ uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
 Interactive Swagger API docs will be available at: `http://127.0.0.1:8000/docs`.
 
+### 5. Launch the Streamlit Frontend
+```bash
+streamlit run app.py
+```
+Opens interactive review triage portal with live defect classification and routing tickets.
+
 ---
 
 ## 🧪 cURL Example
